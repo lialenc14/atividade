@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+          <div class="bold-text">
+            <label>CEP</label>
+            <input type="text" id="cep" pattern= "\d{5}-?\d{3}" required placeholder="Insira seu CEP">
+          </div>
+          <div class="bold-text">
+            <label>Logradouro</label>
+            <input type="text"  id="logradouro" placeholder="Insira o logradouro (rua, avenida, etc)">
+          </div>
+          <div class="bold-text">
+            <label>Complemento</label>
+            <input type="text" id="complemento" placeholder="Insira o complemento">
+          </div>
+          <div class="bold-text">
+            <label>Bairro</label>
+            <input type="text" id="bairro" placeholder="Insira seu bairro">
+          </div>
+          <div class="bold-text">
+            <label>Localidade</label>
+            <input type="text" id="localidade" placeholder="Insira sua cidade">
+          </div>
+          <div class="bold-text">
+            <label>UF</label>
+            <input type="text" id="uf" placeholder="Insira seu estado">
+          </div>
+          <button type="submit" id="bPesquisar">Pesquisa</button>
+          <button type="reset" id="bLimpar">Limpar</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
