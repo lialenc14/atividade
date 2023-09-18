@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 30px;
+}
+
+body {
+    background-color: beige;
+}
+
+.container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: larger;
+    width: 300px;
+    border: 15px solid rgb(99, 134, 189);
+    padding: 50px;
+    margin: 20px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: rgb(120, 142, 202);
+    font-family: cursive;
+    font-size: 18px;
+}
