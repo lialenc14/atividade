@@ -32,7 +32,7 @@ pesquisarCEP.addEventListener("click", event =>{
     {
     if(data.erro)
     {
-    alert("O CEP DIGITADO ESTÁ INVÁLIDO");
+    alert("CEP inválido!");
     return ;
     }
     atribuirCampos(data);
