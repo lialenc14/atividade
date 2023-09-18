@@ -13,7 +13,7 @@ return response.json();
 .then(data =>{
       atribuirCampos(data);
 })
-.then(data =>
+.then(data => 
 {
 if(data.erro)
 {
